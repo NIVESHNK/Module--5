@@ -76,6 +76,8 @@ p.getPatientDetails()
 ```
 ## Sample Output:
 <img width="654" height="712" alt="image" src="https://github.com/user-attachments/assets/148d1195-b0a9-4bf0-b503-ff7632557d3b" />
+
+
 ## Result:
 Thus, the Python program to demonstrate Hierarchical Inheritance for Employee and Patient details was executed successfully.
 
