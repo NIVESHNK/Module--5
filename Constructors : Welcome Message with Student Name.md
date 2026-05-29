@@ -12,22 +12,21 @@ To write a Python program that creates a **Student** class with a **default cons
 
 ## 🧾 Program
 ```
-name = input("Enter student name: ")
-
 class Student:
-    def __init__(self):
-        self.a = name
-
-    def show(self):
-        print("This is non-parameterized constructor")
-        print("Welcome", self.a)
-
-obj = Student()
-obj.show()
+    def __init__(self,name,userid):
+        self.name=name
+        self.userid=userid
+        self.display()
+    def display(self):
+        print(self.userid)
+name=input()
+userid=input()
+obj = Student(name,userid)
+obj.display()      
 ```
-## Output:
-<img width="544" height="280" alt="image" src="https://github.com/user-attachments/assets/cbdd95dc-6e05-4b46-999f-587041d59998" />
 
+## Output
+<img width="1096" height="429" alt="image" src="https://github.com/user-attachments/assets/0200ff82-34e2-4e99-abb0-b471881530b6" />
 
-## Result:
-Thus, the Python program to create a Student class with a default constructor and display a welcome message was executed successfully.
+## Result
+The Python program that creates a Student class with a default constructor,which will take the name and userid of the person as parameters print the userid of the person.
